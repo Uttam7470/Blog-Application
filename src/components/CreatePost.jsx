@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createPost } from '../services/Data';
+import { toast } from 'react-toastify';
 import './CreatePost.css';
 
 
@@ -27,6 +28,7 @@ function CreatePost({ addPost }) {
 
       //add new post in list posts by calling addPosts function
       addPost(newPost);
+      toast.success('Post created successfully!'); // Show success message
       navigate('/');
     } catch (err) {
       console.log(err);
