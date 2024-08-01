@@ -1,0 +1,64 @@
+
+  .pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pop-up-content {
+    position: relative; 
+    background: white;
+    padding: 50px;
+    border-radius: 5px;
+    width: 70%;
+    
+  }
+  .pop-up-content h1{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .pop-up-content p{
+    text-align: center;
+    line-height: 23px;
+  }
+  
+  .close {
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+   border: 1px solid;
+   padding: 0px 5px;
+    font-size: 1.5rem; 
+    color: #000;
+    z-index: 1000; 
+  }
+  .close:hover{
+    background: red;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background: red;
+    color: white;
+    border: none;
+    padding:10px 15px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 0px;
+  }
+  .delete-button:hover{
+    background: rgb(217, 14, 14);
+    
+  }
