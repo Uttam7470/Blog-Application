@@ -13,17 +13,16 @@ This is a simple React-based blog application where users can view, create, and 
 - [Available Scripts](#available-scripts)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
-- View a list of blog posts
-- Search through blog posts by title
-- Create new blog posts
-- View individual blog posts with details
-- Delete blog posts
+- View a list of blog posts.
+- Search through blog posts by title.
+- Create new blog posts.
+- View individual blog posts with details.
+- Delete blog posts.
 
 ## Demo
-A live demo of the application can be accessed at [your-deployed-site-url](#).
+A live demo of the application can be accessed at [Live Demo](https://blog-application-kappa-one.vercel.app/).
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -33,7 +32,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/react-blog-app.git
+   git clone https://github.com/Uttam7470/Blog-Application.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -94,6 +93,3 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature-branch-name`).
 6. Open a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
